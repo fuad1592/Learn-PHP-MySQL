@@ -1,8 +1,8 @@
 <?php
 error_reporting(0);
 $dbhost = 'localhost';
-$dbuser = 'fuadn';
-$dbpass = 'nasrudin';
+$dbuser = 'root';
+$dbpass = '';
 $dbname = 'kemahasiswaan';
 
 $koneksi = mysql_connect($dbhost, $dbuser, $dbpass);
