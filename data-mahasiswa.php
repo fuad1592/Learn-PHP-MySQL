@@ -4,6 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>Halaman Data Mahasiswa</title>
+    <style type="text/css">
+      table{
+        border-collapse: collapse;
+      }
+      th{
+        height: 32px;
+      }
+      td{
+        height: 32px;
+      }
+    </style>
   </head>
   <body>
     <?php
@@ -11,7 +22,7 @@
     $query = "SELECT * FROM MAHASISWA";
     $execute = mysql_query($query);
     ?>
-    <table border="1px">
+    <table border="1px" width="680">
       <tr>
         <th>Nomor Mahasiswa</th>
         <th>Nama Mahasiswa</th>
